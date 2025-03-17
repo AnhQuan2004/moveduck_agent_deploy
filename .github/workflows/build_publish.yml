@@ -17,17 +17,12 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
-      # - name: Extract metadata (tags, labels) for Docker
-      #   id: meta
-      #   uses: docker/metadata-action@v5
-      #   with:
-      #     images: lekhacthanhtung/test-dev-battle
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
           context: .
           push: true
-          tags: jasong03/aptos-fly-explorer:latest
-          labels: jasong03/aptos-fly-explorer:latest
+          tags: jasong03/flyfish-agent-aptos:latest
+          labels: jasong03/flyfish-agent-aptos:latest
           # tags: ${{ steps.meta.outputs.tags }}
           # labels: ${{ steps.meta.outputs.labels }}
