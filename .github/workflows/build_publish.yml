@@ -22,7 +22,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: jasong03/flyfish-agent-aptos:latest
-          labels: jasong03/flyfish-agent-aptos:latest
+          tags: jasong03/moveduck:latest
+          labels: jasong03/moveduck:latest
           # tags: ${{ steps.meta.outputs.tags }}
           # labels: ${{ steps.meta.outputs.labels }}
