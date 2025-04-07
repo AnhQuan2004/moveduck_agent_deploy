@@ -16,7 +16,7 @@ import { fileURLToPath } from "url";
 import { initializeDbCache } from "./cache/index.ts";
 import { character } from "./character.ts";
 import { startChat } from "./chat/index.ts";
-import { aptosPlugin, quizGen } from "quanna-elizaos-plugin-aptos"
+import { aptosPlugin, bountyAdd } from "plugin-agentic"
 import { initializeClients } from "./clients/index.ts";
 import {
   getTokenForProvider,
@@ -64,7 +64,7 @@ export function createAgent(
     ].filter(Boolean),
     providers: [],
     // @ts-ignore
-    actions: [quizGen],
+    actions: [bountyAdd],
     services: [],
     managers: [],
     cacheManager: cache,
