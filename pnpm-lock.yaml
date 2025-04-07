@@ -54,14 +54,14 @@ importers:
         specifier: 0.10.5
         version: 0.10.5
       better-sqlite3:
-        specifier: 11.9.0
-        version: 11.9.0
+        specifier: 11.9.1
+        version: 11.9.1
       custom-elizaos-client-direct-aptos:
         specifier: ^0.25.10
         version: 0.25.10(@types/debug@4.1.12)(@types/node@20.17.19)(axios@1.7.9)(bufferutil@4.0.9)(encoding@0.1.13)(got@11.8.6)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(react@19.0.0)(typescript@5.6.3)(utf-8-validate@5.0.10)(whatwg-url@14.1.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       elizaos-plugin-gmove:
         specifier: ^0.1.3
-        version: 0.1.3(08a56e1bd1e3ab49e8960bd06ccc86ec)
+        version: 0.1.3(773c9b2a0b4fb9c1ad5c815a1d94d5fc)
       fs:
         specifier: 0.0.1-security
         version: 0.0.1-security
@@ -71,9 +71,9 @@ importers:
       path:
         specifier: 0.12.7
         version: 0.12.7
-      quanna-elizaos-plugin-aptos:
-        specifier: 0.1.14
-        version: 0.1.14(b7d74eac80a297bb063389daa47ce895)
+      plugin-agentic:
+        specifier: 0.1.9
+        version: 0.1.9(d3d45319dee6a55ce36f52bc2c7bb1c2)
       readline:
         specifier: 1.3.0
         version: 1.3.0
@@ -4266,8 +4266,8 @@ packages:
   better-sqlite3@11.8.1:
     resolution: {integrity: sha512-9BxNaBkblMjhJW8sMRZxnxVTRgbRmssZW0Oxc1MPBTfiR+WW21e2Mk4qu8CzrcZb1LwPCnFsfDEzq+SNcBU8eg==}
 
-  better-sqlite3@11.9.0:
-    resolution: {integrity: sha512-4b9xYnoaskj8eIkke9ZCB42p5bOPabptSku8Rl4Yww70Jf+aHeLvrIjXDJrKQxUEjdppsFb+fdJSjoH4TklROA==}
+  better-sqlite3@11.9.1:
+    resolution: {integrity: sha512-Ba0KR+Fzxh2jDRhdg6TSH0SJGzb8C0aBY4hR8w8madIdIzzC6Y1+kx5qR6eS1Z+Gy20h6ZU28aeyg0z1VIrShQ==}
 
   big-integer@1.6.52:
     resolution: {integrity: sha512-QxD8cf2eVqJOOz63z6JIN9BzvVs/dlySa5HGSBH5xtR8dPteIRQnBxxKqkNTiT6jbDTF6jAfrd4oMcND9RGbQg==}
@@ -4764,15 +4764,6 @@ packages:
   cosmiconfig@8.1.3:
     resolution: {integrity: sha512-/UkO2JKI18b5jVMJUp0lvKFMpa/Gye+ZgZjKD+DGEN9y7NRcf/nK1A0sp67ONmKtnDCNMS44E6jrk0Yc3bDuUw==}
     engines: {node: '>=14'}
-
-  cosmiconfig@9.0.0:
-    resolution: {integrity: sha512-itvL5h8RETACmOTFc4UfIyB2RfEHi71Ax6E/PivVxq9NseKbOWpeyHEOIbmAw1rs8Ak0VursQNww7lf7YtUwzg==}
-    engines: {node: '>=14'}
-    peerDependencies:
-      typescript: '>=4.9.5'
-    peerDependenciesMeta:
-      typescript:
-        optional: true
 
   create-hash@1.2.0:
     resolution: {integrity: sha512-z00bCGNHDG8mHAkP7CtT1qVu+bFQUPjYq/4Iv3C3kWjTFV10zIjfSoeqXo9Asws8gwSHDGj/hl2u4OGIjapeCg==}
@@ -7658,6 +7649,7 @@ packages:
 
   pinata-web3@0.5.4:
     resolution: {integrity: sha512-w98wheqt+2LRzNgU5+xZaPP3JZA8Cp33O647zU6AF0zYk15py9ti8g2Bl/7rwXyua3CN+EzHgzcu1wgKnhSZ8w==}
+    deprecated: Package no longer supported. Contact Support at https://www.npmjs.com/support for more info.
 
   pino-abstract-transport@2.0.0:
     resolution: {integrity: sha512-F63x5tizV6WCh4R6RHyi2Ml+M70DNRXt/+HANowMflpgGFMAym/VKm6G7ZOQRjqN7XbGxK1Lg9t6ZrtzOaivMw==}
@@ -7689,6 +7681,12 @@ packages:
     resolution: {integrity: sha512-NjYvYgp4BPmiwfe31j4gHLa3J7bD2WiBz8Lk2RoSsmX38SVIARZ18VYjxLjAcDsAhA+F4iSEXTSGgjua0rrlgQ==}
     engines: {node: '>=18'}
     hasBin: true
+
+  plugin-agentic@0.1.9:
+    resolution: {integrity: sha512-y3ij8iowWN6BzkhRNMfyYfUpjtRxUK1lH6SRb5V+aKf0FKk7MZPbcyaXujRpC8aax7ETBd224T0UatUZoPJl0w==}
+    peerDependencies:
+      form-data: 4.0.1
+      whatwg-url: 7.1.0
 
   pm2-axon-rpc@0.7.1:
     resolution: {integrity: sha512-FbLvW60w+vEyvMjP/xom2UPhUN/2bVpdtLfKJeYM3gwzYhoTEEChCOICfFzxkxuoEleOlnpjie+n1nue91bDQw==}
@@ -7945,12 +7943,6 @@ packages:
     resolution: {integrity: sha512-39olGaX2djYUdhaQQHDZ0T0GwEp+5f9UB9HmEP0qHfdQHIq0xGQZuAZ5TLnJIc/88SrPLpEflPC+xUqOTv3c5g==}
     deprecated: < 22.8.2 is no longer supported
 
-  puppeteer@21.11.0:
-    resolution: {integrity: sha512-9jTHuYe22TD3sNxy0nEIzC7ZrlRnDgeX3xPkbS7PnbdwYjl2o/z/YuCrRBwezdKpbTDTJ4VqIggzNyeRcKq3cg==}
-    engines: {node: '>=16.13.2'}
-    deprecated: < 22.8.2 is no longer supported
-    hasBin: true
-
   qs@6.13.0:
     resolution: {integrity: sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==}
     engines: {node: '>=0.6'}
@@ -7958,12 +7950,6 @@ packages:
   qs@6.14.0:
     resolution: {integrity: sha512-YWWTjgABSKcvs/nWBi9PycY/JiPJqOD4JA6o9Sej2AtvSGarXxKC3OQSk4pAarbdQlKAh5D4FCQkJNkW+GAn3w==}
     engines: {node: '>=0.6'}
-
-  quanna-elizaos-plugin-aptos@0.1.14:
-    resolution: {integrity: sha512-wzELnob0cdw5luy7+eHgxccO5r451D+GWeKAb6RIJATz2cvXt5VL6EuMBxLC/Mp+8xxYrepc7hLgRStdWAIa+w==}
-    peerDependencies:
-      form-data: 4.0.1
-      whatwg-url: 7.1.0
 
   querystringify@2.2.0:
     resolution: {integrity: sha512-FIqgj2EUvTa7R50u0rGsyTftzjYmv/a3hO345bZNrqabNqjtgiDMgmo4mkUjd+nzU5oF3dClKqFIPUKybUyqoQ==}
@@ -12980,7 +12966,7 @@ snapshots:
 
   '@kwsites/promise-deferred@1.1.1': {}
 
-  '@langchain/community@0.0.57(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(html-to-text@9.0.5)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
+  '@langchain/community@0.0.57(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.9.1)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(html-to-text@9.0.5)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))':
     dependencies:
       '@langchain/core': 0.1.63(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
       '@langchain/openai': 0.0.34(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
@@ -12999,7 +12985,7 @@ snapshots:
       '@smithy/util-utf8': 2.3.0
       '@supabase/postgrest-js': 1.19.2
       '@supabase/supabase-js': 2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      better-sqlite3: 11.9.0
+      better-sqlite3: 11.9.1
       discord.js: 14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10)
       html-to-text: 9.0.5
       jsdom: 25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10)
@@ -14447,6 +14433,7 @@ snapshots:
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
+    optional: true
 
   '@pythnetwork/client@2.22.1(@solana/web3.js@1.95.8(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
@@ -16947,7 +16934,8 @@ snapshots:
 
   axobject-query@4.1.0: {}
 
-  b4a@1.6.7: {}
+  b4a@1.6.7:
+    optional: true
 
   balanced-match@1.0.2: {}
 
@@ -16992,7 +16980,7 @@ snapshots:
       bindings: 1.5.0
       prebuild-install: 7.1.3
 
-  better-sqlite3@11.9.0:
+  better-sqlite3@11.9.1:
     dependencies:
       bindings: 1.5.0
       prebuild-install: 7.1.3
@@ -17315,6 +17303,7 @@ snapshots:
       devtools-protocol: 0.0.1232444
       mitt: 3.0.1
       urlpattern-polyfill: 10.0.0
+    optional: true
 
   ci-info@4.1.0: {}
 
@@ -17505,15 +17494,6 @@ snapshots:
       parse-json: 5.2.0
       path-type: 4.0.0
 
-  cosmiconfig@9.0.0(typescript@5.6.3):
-    dependencies:
-      env-paths: 2.2.1
-      import-fresh: 3.3.1
-      js-yaml: 4.1.0
-      parse-json: 5.2.0
-    optionalDependencies:
-      typescript: 5.6.3
-
   create-hash@1.2.0:
     dependencies:
       cipher-base: 1.0.6
@@ -17562,6 +17542,7 @@ snapshots:
       node-fetch: 2.7.0(encoding@0.1.13)
     transitivePeerDependencies:
       - encoding
+    optional: true
 
   cross-spawn@7.0.6:
     dependencies:
@@ -17783,7 +17764,8 @@ snapshots:
 
   devtools-protocol@0.0.1107588: {}
 
-  devtools-protocol@0.0.1232444: {}
+  devtools-protocol@0.0.1232444:
+    optional: true
 
   diff-match-patch@1.0.5: {}
 
@@ -17986,14 +17968,14 @@ snapshots:
 
   efrt@2.7.0: {}
 
-  elizaos-plugin-gmove@0.1.3(08a56e1bd1e3ab49e8960bd06ccc86ec):
+  elizaos-plugin-gmove@0.1.3(773c9b2a0b4fb9c1ad5c815a1d94d5fc):
     dependencies:
       '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3(encoding@0.1.13))(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(@langchain/groq@0.1.3(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(axios@1.7.9)(encoding@0.1.13)(react@19.0.0)(sswr@2.1.0(svelte@5.20.2))(svelte@5.20.2)(vue@3.5.13(typescript@5.6.3))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@pinecone-database/pinecone': 1.1.3
       axios: 1.7.9
       bignumber.js: 9.1.2
       form-data: 4.0.2
-      langchain: 0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      langchain: 0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.1)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       node-cache: 5.1.2
       tsup: 8.3.5(postcss@8.5.3)(typescript@5.6.3)(yaml@2.7.0)
       vitest: 2.1.4(@types/node@20.17.19)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))
@@ -18582,7 +18564,8 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
-  fast-fifo@1.3.2: {}
+  fast-fifo@1.3.2:
+    optional: true
 
   fast-glob@3.3.3:
     dependencies:
@@ -19668,10 +19651,10 @@ snapshots:
       doublearray: 0.0.2
       zlibjs: 0.3.1
 
-  langchain@0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
+  langchain@0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.1)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
     dependencies:
       '@anthropic-ai/sdk': 0.9.1(encoding@0.1.13)
-      '@langchain/community': 0.0.57(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(html-to-text@9.0.5)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@langchain/community': 0.0.57(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.9.1)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(html-to-text@9.0.5)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@langchain/core': 0.1.63(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
       '@langchain/openai': 0.0.34(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
       '@langchain/textsplitters': 0.0.3(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
@@ -19702,113 +19685,6 @@ snapshots:
       node-llama-cpp: 3.1.1(typescript@5.6.3)
       playwright: 1.48.2
       puppeteer: 19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      ws: 8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - '@aws-crypto/sha256-js'
-      - '@aws-sdk/client-bedrock-agent-runtime'
-      - '@aws-sdk/client-bedrock-runtime'
-      - '@aws-sdk/client-dynamodb'
-      - '@aws-sdk/client-kendra'
-      - '@aws-sdk/client-lambda'
-      - '@azure/search-documents'
-      - '@clickhouse/client'
-      - '@cloudflare/ai'
-      - '@datastax/astra-db-ts'
-      - '@elastic/elasticsearch'
-      - '@getmetal/metal-sdk'
-      - '@getzep/zep-js'
-      - '@gradientai/nodejs-sdk'
-      - '@huggingface/inference'
-      - '@mlc-ai/web-llm'
-      - '@mozilla/readability'
-      - '@neondatabase/serverless'
-      - '@opensearch-project/opensearch'
-      - '@planetscale/database'
-      - '@premai/prem-sdk'
-      - '@qdrant/js-client-rest'
-      - '@raycast/api'
-      - '@rockset/client'
-      - '@smithy/eventstream-codec'
-      - '@smithy/protocol-http'
-      - '@smithy/signature-v4'
-      - '@smithy/util-utf8'
-      - '@supabase/postgrest-js'
-      - '@tensorflow-models/universal-sentence-encoder'
-      - '@tensorflow/tfjs-converter'
-      - '@tensorflow/tfjs-core'
-      - '@upstash/redis'
-      - '@upstash/vector'
-      - '@vercel/postgres'
-      - '@writerai/writer-sdk'
-      - '@xenova/transformers'
-      - '@zilliz/milvus2-sdk-node'
-      - better-sqlite3
-      - cassandra-driver
-      - cborg
-      - closevector-common
-      - closevector-node
-      - closevector-web
-      - cohere-ai
-      - discord.js
-      - dria
-      - duck-duck-scrape
-      - encoding
-      - firebase-admin
-      - googleapis
-      - hnswlib-node
-      - interface-datastore
-      - it-all
-      - jsonwebtoken
-      - llmonitor
-      - lodash
-      - lunary
-      - mysql2
-      - neo4j-driver
-      - openai
-      - pg
-      - pg-copy-streams
-      - pickleparser
-      - portkey-ai
-      - replicate
-      - typesense
-      - usearch
-      - vectordb
-      - voy-search
-
-  langchain@0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)):
-    dependencies:
-      '@anthropic-ai/sdk': 0.9.1(encoding@0.1.13)
-      '@langchain/community': 0.0.57(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(html-to-text@9.0.5)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@langchain/core': 0.1.63(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
-      '@langchain/openai': 0.0.34(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@langchain/textsplitters': 0.0.3(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
-      binary-extensions: 2.3.0
-      js-tiktoken: 1.0.19
-      js-yaml: 4.1.0
-      jsonpointer: 5.0.1
-      langchainhub: 0.0.11
-      langsmith: 0.1.68(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))
-      ml-distance: 4.0.1
-      openapi-types: 12.1.3
-      p-retry: 4.6.2
-      uuid: 9.0.1
-      yaml: 2.7.0
-      zod: 3.24.2
-      zod-to-json-schema: 3.24.2(zod@3.24.2)
-    optionalDependencies:
-      '@aws-sdk/client-s3': 3.750.0
-      '@aws-sdk/credential-provider-node': 3.750.0
-      '@pinecone-database/pinecone': 1.1.3
-      '@supabase/supabase-js': 2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      axios: 1.7.9
-      fast-xml-parser: 4.4.1
-      handlebars: 4.7.8
-      html-to-text: 9.0.5
-      ignore: 5.3.2
-      jsdom: 25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10)
-      node-llama-cpp: 3.1.1(typescript@5.6.3)
-      playwright: 1.48.2
-      puppeteer: 21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10)
       ws: 8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - '@aws-crypto/sha256-js'
@@ -20300,7 +20176,8 @@ snapshots:
 
   mitt@3.0.0: {}
 
-  mitt@3.0.1: {}
+  mitt@3.0.1:
+    optional: true
 
   mixin-object@2.0.1:
     dependencies:
@@ -21153,6 +21030,186 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.2
 
+  plugin-agentic@0.1.9(d3d45319dee6a55ce36f52bc2c7bb1c2):
+    dependencies:
+      '@aptos-labs/ts-sdk': 1.35.0(axios@1.7.9)(got@11.8.6)
+      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3(encoding@0.1.13))(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(@langchain/groq@0.1.3(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(axios@1.7.9)(encoding@0.1.13)(react@19.0.0)(sswr@2.1.0(svelte@5.20.2))(svelte@5.20.2)(vue@3.5.13(typescript@5.6.3))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      '@pinata/sdk': 1.2.1
+      axios: 1.7.9
+      bignumber.js: 9.1.2
+      ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
+      form-data: 4.0.2
+      langchain: 0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.1)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@19.11.1(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
+      node-cache: 5.1.2
+      pinata-web3: 0.5.4
+      tsup: 8.3.5(postcss@8.5.3)(typescript@5.6.3)(yaml@2.7.0)
+      vitest: 2.1.9(@types/node@20.17.19)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))
+      whatwg-url: 14.1.1
+    transitivePeerDependencies:
+      - '@aws-crypto/sha256-js'
+      - '@aws-sdk/client-bedrock-agent-runtime'
+      - '@aws-sdk/client-bedrock-runtime'
+      - '@aws-sdk/client-dynamodb'
+      - '@aws-sdk/client-kendra'
+      - '@aws-sdk/client-lambda'
+      - '@aws-sdk/client-s3'
+      - '@aws-sdk/client-sagemaker-runtime'
+      - '@aws-sdk/client-sfn'
+      - '@aws-sdk/credential-provider-node'
+      - '@azure/search-documents'
+      - '@azure/storage-blob'
+      - '@browserbasehq/sdk'
+      - '@clickhouse/client'
+      - '@cloudflare/ai'
+      - '@datastax/astra-db-ts'
+      - '@edge-runtime/vm'
+      - '@elastic/elasticsearch'
+      - '@getmetal/metal-sdk'
+      - '@getzep/zep-js'
+      - '@gomomento/sdk'
+      - '@gomomento/sdk-core'
+      - '@gomomento/sdk-web'
+      - '@google-ai/generativelanguage'
+      - '@google-cloud/storage'
+      - '@google-cloud/vertexai'
+      - '@gradientai/nodejs-sdk'
+      - '@huggingface/inference'
+      - '@langchain/anthropic'
+      - '@langchain/aws'
+      - '@langchain/cohere'
+      - '@langchain/core'
+      - '@langchain/google-genai'
+      - '@langchain/google-vertexai'
+      - '@langchain/groq'
+      - '@langchain/mistralai'
+      - '@langchain/ollama'
+      - '@mendable/firecrawl-js'
+      - '@microsoft/api-extractor'
+      - '@mlc-ai/web-llm'
+      - '@mozilla/readability'
+      - '@neondatabase/serverless'
+      - '@notionhq/client'
+      - '@opensearch-project/opensearch'
+      - '@pinecone-database/pinecone'
+      - '@planetscale/database'
+      - '@premai/prem-sdk'
+      - '@qdrant/js-client-rest'
+      - '@raycast/api'
+      - '@rockset/client'
+      - '@smithy/eventstream-codec'
+      - '@smithy/protocol-http'
+      - '@smithy/signature-v4'
+      - '@smithy/util-utf8'
+      - '@supabase/postgrest-js'
+      - '@supabase/supabase-js'
+      - '@swc/core'
+      - '@tensorflow-models/universal-sentence-encoder'
+      - '@tensorflow/tfjs-converter'
+      - '@tensorflow/tfjs-core'
+      - '@types/node'
+      - '@upstash/redis'
+      - '@upstash/vector'
+      - '@vercel/kv'
+      - '@vercel/postgres'
+      - '@vitest/browser'
+      - '@vitest/ui'
+      - '@writerai/writer-sdk'
+      - '@xata.io/client'
+      - '@xenova/transformers'
+      - '@zilliz/milvus2-sdk-node'
+      - apify-client
+      - assemblyai
+      - aws-crt
+      - better-sqlite3
+      - bufferutil
+      - cassandra-driver
+      - cborg
+      - cheerio
+      - chromadb
+      - closevector-common
+      - closevector-node
+      - closevector-web
+      - cohere-ai
+      - convex
+      - couchbase
+      - d3-dsv
+      - debug
+      - discord.js
+      - dria
+      - duck-duck-scrape
+      - encoding
+      - epub2
+      - faiss-node
+      - fast-xml-parser
+      - firebase-admin
+      - google-auth-library
+      - googleapis
+      - got
+      - handlebars
+      - happy-dom
+      - hnswlib-node
+      - html-to-text
+      - ignore
+      - interface-datastore
+      - ioredis
+      - it-all
+      - jiti
+      - jsdom
+      - jsonwebtoken
+      - less
+      - lightningcss
+      - llmonitor
+      - lodash
+      - lunary
+      - mammoth
+      - mongodb
+      - msw
+      - mysql2
+      - neo4j-driver
+      - node-llama-cpp
+      - notion-to-md
+      - officeparser
+      - openai
+      - pdf-parse
+      - peggy
+      - pg
+      - pg-copy-streams
+      - pickleparser
+      - playwright
+      - portkey-ai
+      - postcss
+      - puppeteer
+      - pyodide
+      - react
+      - redis
+      - replicate
+      - sass
+      - sass-embedded
+      - solid-js
+      - sonix-speech-recognition
+      - srt-parser-2
+      - sswr
+      - stylus
+      - sugarss
+      - supports-color
+      - svelte
+      - terser
+      - tsx
+      - typeorm
+      - typescript
+      - typesense
+      - usearch
+      - utf-8-validate
+      - vectordb
+      - voy-search
+      - vue
+      - weaviate-ts-client
+      - web-auth-library
+      - ws
+      - yaml
+      - youtube-transcript
+      - youtubei.js
+
   pm2-axon-rpc@0.7.1:
     dependencies:
       debug: 4.4.0
@@ -21439,6 +21496,7 @@ snapshots:
       - encoding
       - supports-color
       - utf-8-validate
+    optional: true
 
   puppeteer-extra-plugin-capsolver@2.0.1(bufferutil@4.0.9)(encoding@0.1.13)(puppeteer-core@21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10))(typescript@5.6.3)(utf-8-validate@5.0.10):
     dependencies:
@@ -21494,18 +21552,6 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  puppeteer@21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10):
-    dependencies:
-      '@puppeteer/browsers': 1.9.1
-      cosmiconfig: 9.0.0(typescript@5.6.3)
-      puppeteer-core: 21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - supports-color
-      - typescript
-      - utf-8-validate
-
   qs@6.13.0:
     dependencies:
       side-channel: 1.1.0
@@ -21513,187 +21559,6 @@ snapshots:
   qs@6.14.0:
     dependencies:
       side-channel: 1.1.0
-
-  quanna-elizaos-plugin-aptos@0.1.14(b7d74eac80a297bb063389daa47ce895):
-    dependencies:
-      '@aptos-labs/ts-sdk': 1.35.0(axios@1.7.9)(got@11.8.6)
-      '@elizaos/core': 0.1.9(@google-cloud/vertexai@1.9.3(encoding@0.1.13))(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(@langchain/groq@0.1.3(@langchain/core@0.3.40(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2)))(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10)))(axios@1.7.9)(encoding@0.1.13)(react@19.0.0)(sswr@2.1.0(svelte@5.20.2))(svelte@5.20.2)(vue@3.5.13(typescript@5.6.3))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      '@pinata/sdk': 1.2.1
-      agent-twitter-client: 0.0.18(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      axios: 1.7.9
-      bignumber.js: 9.1.2
-      ethers: 6.13.5(bufferutil@4.0.9)(utf-8-validate@5.0.10)
-      form-data: 4.0.2
-      langchain: 0.1.37(@aws-crypto/sha256-js@5.2.0)(@aws-sdk/client-bedrock-runtime@3.751.0)(@aws-sdk/client-s3@3.750.0)(@aws-sdk/credential-provider-node@3.750.0)(@mozilla/readability@0.5.0)(@pinecone-database/pinecone@1.1.3)(@smithy/util-utf8@2.3.0)(@supabase/postgrest-js@1.19.2)(@supabase/supabase-js@2.49.1(bufferutil@4.0.9)(utf-8-validate@5.0.10))(axios@1.7.9)(better-sqlite3@11.9.0)(discord.js@14.16.3(bufferutil@4.0.9)(utf-8-validate@5.0.10))(encoding@0.1.13)(fast-xml-parser@4.4.1)(handlebars@4.7.8)(html-to-text@9.0.5)(ignore@5.3.2)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))(lodash@4.17.21)(node-llama-cpp@3.1.1(typescript@5.6.3))(openai@4.85.3(encoding@0.1.13)(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))(zod@3.24.2))(pg@8.13.1)(playwright@1.48.2)(puppeteer@21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10))(ws@8.18.0(bufferutil@4.0.9)(utf-8-validate@5.0.10))
-      node-cache: 5.1.2
-      pinata-web3: 0.5.4
-      puppeteer: 21.11.0(bufferutil@4.0.9)(encoding@0.1.13)(typescript@5.6.3)(utf-8-validate@5.0.10)
-      tsup: 8.3.5(postcss@8.5.3)(typescript@5.6.3)(yaml@2.7.0)
-      vitest: 2.1.9(@types/node@20.17.19)(jsdom@25.0.1(bufferutil@4.0.9)(canvas@2.11.2(encoding@0.1.13))(utf-8-validate@5.0.10))
-      whatwg-url: 14.1.1
-    transitivePeerDependencies:
-      - '@aws-crypto/sha256-js'
-      - '@aws-sdk/client-bedrock-agent-runtime'
-      - '@aws-sdk/client-bedrock-runtime'
-      - '@aws-sdk/client-dynamodb'
-      - '@aws-sdk/client-kendra'
-      - '@aws-sdk/client-lambda'
-      - '@aws-sdk/client-s3'
-      - '@aws-sdk/client-sagemaker-runtime'
-      - '@aws-sdk/client-sfn'
-      - '@aws-sdk/credential-provider-node'
-      - '@azure/search-documents'
-      - '@azure/storage-blob'
-      - '@browserbasehq/sdk'
-      - '@clickhouse/client'
-      - '@cloudflare/ai'
-      - '@datastax/astra-db-ts'
-      - '@edge-runtime/vm'
-      - '@elastic/elasticsearch'
-      - '@getmetal/metal-sdk'
-      - '@getzep/zep-js'
-      - '@gomomento/sdk'
-      - '@gomomento/sdk-core'
-      - '@gomomento/sdk-web'
-      - '@google-ai/generativelanguage'
-      - '@google-cloud/storage'
-      - '@google-cloud/vertexai'
-      - '@gradientai/nodejs-sdk'
-      - '@huggingface/inference'
-      - '@langchain/anthropic'
-      - '@langchain/aws'
-      - '@langchain/cohere'
-      - '@langchain/core'
-      - '@langchain/google-genai'
-      - '@langchain/google-vertexai'
-      - '@langchain/groq'
-      - '@langchain/mistralai'
-      - '@langchain/ollama'
-      - '@mendable/firecrawl-js'
-      - '@microsoft/api-extractor'
-      - '@mlc-ai/web-llm'
-      - '@mozilla/readability'
-      - '@neondatabase/serverless'
-      - '@notionhq/client'
-      - '@opensearch-project/opensearch'
-      - '@pinecone-database/pinecone'
-      - '@planetscale/database'
-      - '@premai/prem-sdk'
-      - '@qdrant/js-client-rest'
-      - '@raycast/api'
-      - '@rockset/client'
-      - '@smithy/eventstream-codec'
-      - '@smithy/protocol-http'
-      - '@smithy/signature-v4'
-      - '@smithy/util-utf8'
-      - '@supabase/postgrest-js'
-      - '@supabase/supabase-js'
-      - '@swc/core'
-      - '@tensorflow-models/universal-sentence-encoder'
-      - '@tensorflow/tfjs-converter'
-      - '@tensorflow/tfjs-core'
-      - '@types/node'
-      - '@upstash/redis'
-      - '@upstash/vector'
-      - '@vercel/kv'
-      - '@vercel/postgres'
-      - '@vitest/browser'
-      - '@vitest/ui'
-      - '@writerai/writer-sdk'
-      - '@xata.io/client'
-      - '@xenova/transformers'
-      - '@zilliz/milvus2-sdk-node'
-      - apify-client
-      - assemblyai
-      - aws-crt
-      - better-sqlite3
-      - bufferutil
-      - cassandra-driver
-      - cborg
-      - cheerio
-      - chromadb
-      - closevector-common
-      - closevector-node
-      - closevector-web
-      - cohere-ai
-      - convex
-      - couchbase
-      - d3-dsv
-      - debug
-      - discord.js
-      - dria
-      - duck-duck-scrape
-      - encoding
-      - epub2
-      - faiss-node
-      - fast-xml-parser
-      - firebase-admin
-      - google-auth-library
-      - googleapis
-      - got
-      - handlebars
-      - happy-dom
-      - hnswlib-node
-      - html-to-text
-      - ignore
-      - interface-datastore
-      - ioredis
-      - it-all
-      - jiti
-      - jsdom
-      - jsonwebtoken
-      - less
-      - lightningcss
-      - llmonitor
-      - lodash
-      - lunary
-      - mammoth
-      - mongodb
-      - msw
-      - mysql2
-      - neo4j-driver
-      - node-llama-cpp
-      - notion-to-md
-      - officeparser
-      - openai
-      - pdf-parse
-      - peggy
-      - pg
-      - pg-copy-streams
-      - pickleparser
-      - playwright
-      - portkey-ai
-      - postcss
-      - pyodide
-      - react
-      - redis
-      - replicate
-      - sass
-      - sass-embedded
-      - solid-js
-      - sonix-speech-recognition
-      - srt-parser-2
-      - sswr
-      - stylus
-      - sugarss
-      - supports-color
-      - svelte
-      - terser
-      - tsx
-      - typeorm
-      - typescript
-      - typesense
-      - usearch
-      - utf-8-validate
-      - vectordb
-      - voy-search
-      - vue
-      - weaviate-ts-client
-      - web-auth-library
-      - ws
-      - yaml
-      - youtube-transcript
-      - youtubei.js
 
   querystringify@2.2.0: {}
 
@@ -22506,6 +22371,7 @@ snapshots:
       text-decoder: 1.2.3
     optionalDependencies:
       bare-events: 2.5.4
+    optional: true
 
   strict-event-emitter-types@2.0.0: {}
 
@@ -22656,6 +22522,7 @@ snapshots:
       mkdirp-classic: 0.5.3
       pump: 3.0.2
       tar-stream: 3.1.7
+    optional: true
 
   tar-stream@2.2.0:
     dependencies:
@@ -22670,6 +22537,7 @@ snapshots:
       b4a: 1.6.7
       fast-fifo: 1.3.2
       streamx: 2.22.0
+    optional: true
 
   tar@6.2.1:
     dependencies:
@@ -22710,6 +22578,7 @@ snapshots:
   text-decoder@1.2.3:
     dependencies:
       b4a: 1.6.7
+    optional: true
 
   text-encoding-utf-8@1.0.2: {}
 
@@ -23076,7 +22945,8 @@ snapshots:
       punycode: 1.4.1
       qs: 6.14.0
 
-  urlpattern-polyfill@10.0.0: {}
+  urlpattern-polyfill@10.0.0:
+    optional: true
 
   usb@2.9.0:
     dependencies:
@@ -23579,6 +23449,7 @@ snapshots:
     optionalDependencies:
       bufferutil: 4.0.9
       utf-8-validate: 5.0.10
+    optional: true
 
   ws@8.17.1(bufferutil@4.0.9)(utf-8-validate@5.0.10):
     optionalDependencies:
